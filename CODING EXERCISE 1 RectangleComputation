@@ -1,0 +1,19 @@
+package exercise1;
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double length = 5.43;
+		double width = 3.89;
+		double area = length * width ;
+		double perimeter = (length + width)* 2;
+		
+		System.out.println("The length is:"+ length);
+		System.out.println("The width is:"+ width);
+		System.out.printf("%-10s%5.2f%n","The area is:",area);
+		System.out.printf("%-10s%5.2f","The perimeter is:",perimeter);
+
+	}
+
+}
