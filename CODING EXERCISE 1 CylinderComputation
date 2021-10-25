@@ -1,0 +1,23 @@
+package exercise1;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double radius = 3;
+		double height = 10;
+		final double PI =3.14159265;
+		double baseArea = radius * radius * PI;
+		double surfaceArea = (radius*2*height)+(baseArea*2);
+		double volume = baseArea * height;
+		
+		System.out.println("The radius is:"+ radius);
+		System.out.println("The height is:"+ height);
+		System.out.printf("%-10s%7.2f%n","The Base Area is:",baseArea);
+		System.out.printf("%-10s%7.2f%n","The Surface Area is:",surfaceArea);
+		System.out.printf("%-10s%7.2f%n","The Volume is:",volume);
+		
+
+	}
+
+}
